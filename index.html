@@ -4,17 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Simple Spinners Loading With Html Css Javascript And Bootstrap 5 - Srcodeweb</title>
+  <title>Simple Spinners Progress Loading With Html Css Javascript And Bootstrap 5 - Srcodeweb</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div class="background-loading show-loading">
-    <div class="d-flex justify-content-center">
-      <div class="spinner-loading spinner-border border-5" style="width: 3rem; height: 3rem;" role="status">
+    <div class="container-loading">
+      <div class="spinner-loading spinner-border border-5" style="width: 2rem; height: 2rem;" role="status"></div>
+      <div class="progress-loading progress ms-2">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
       </div>
     </div>
   </div>
+  
+  <!-- Your Code -->
+  
+  <!-- End Your Code -->
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./script.js"></script>
